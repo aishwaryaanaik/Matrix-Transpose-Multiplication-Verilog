@@ -10,8 +10,6 @@ always@(a or b)
 begin 
 {a1[0][0],a1[0][1],a1[1][0],a1[1][1]}=a; 
 i=0; 
-7 
-Title of the Project 
 j=0; 
 {b1[0][0],b1[0][1],b1[1][0],b1[1][1]}=16'd0; 
 for(i=0;i<2;i=i+1) 
@@ -26,8 +24,6 @@ i=0;
 j=0; 
 k=0; 
 for(i=0;i<2;i=i+1) 
-8 
-Title of the Project 
 begin 
 for(j=0;j<2;j=j+1) 
 begin 
